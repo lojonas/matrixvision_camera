@@ -159,7 +159,7 @@ private:
   double fps_;
   ImageInfo image_info_;
   Config oldconfig_; ///< previous Config settings
-  static const double TRIGGER_PULSE_WIDTH = 2.0e-4;
+  static const double TRIGGER_PULSE_WIDTH = 1.0e-3;
 };
 
 #endif // _FEATURES_H_

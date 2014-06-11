@@ -92,7 +92,7 @@ double Features::computeFrameTime()
 
 bool Features::setFramerate(const double & fps_suggested, double * fps_returned)
 {
-  const double TRIGGER_PULSE_WIDTH = 100.0 * 1.0e-6; // 100 us
+//  const double TRIGGER_PULSE_WIDTH = 100.0 * 1.0e-6; // 100 us
 
   CameraSettingsBlueDevice common_settings(cam_);
 
